@@ -1,3 +1,16 @@
-h1{
-	color: purple;
+.navbar {
+	background-color: gray!important;
+	padding: 2%;
+}
+
+.navbar a {
+	color: white;
+	font-size: 20px;
+	padding-left: 250px;
+}
+
+.navbar h2 {
+	padding-right: 250px;
+	font-size: 20px;
+	color: white;
 }
