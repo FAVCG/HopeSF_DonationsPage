@@ -47,3 +47,18 @@ body, html {
 .banner-text {
   }
 
+/*sections*/
+#section1 {
+  height: 400px;
+  background-color: #FFFFFF;
+}
+
+#section2 {
+  height: 450px;
+  background-color: olive;
+}
+
+#section3 {
+  height: 450px;
+  background-color: gray;
+}
