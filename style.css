@@ -3,12 +3,12 @@ body, html {
 }
 /*navbar*/
 .navbar {
-	background-color: cadetblue!important;
+	background-color: #36454F!important;
 	padding: 2%;
 }
 
 .navbar a {
-	color: white;
+	color: #c94f68;
 	font-size: 20px;
 	padding-left: 250px;
 }
@@ -16,7 +16,7 @@ body, html {
 .navbar h2 {
 	padding-right: 250px;
 	font-size: 20px;
-	color: white;
+	color: #4bb1bc;
 }
 
 .carousel {
@@ -26,7 +26,7 @@ body, html {
 /*banner*/
 .banner {
   /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("beach.jpeg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./images/beach.jpeg");
 
   /* Set a specific height */
   height: 90%;
@@ -50,15 +50,64 @@ body, html {
 /*sections*/
 #section1 {
   height: 400px;
-  background-color: #FFFFFF;
+  background-color: #f9eedc;
+  
 }
+
+#icons {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 130px;
+  }
 
 #section2 {
   height: 450px;
-  background-color: olive;
+  background-color: #c94f68;
+  display: flex;
+  justify-content: space-between;
 }
 
 #section3 {
-  height: 450px;
-  background-color: gray;
+  height: 400px;
+  background-color: #f9eedc;
+}
+
+
+
+/*section*/
+.section2 img {
+    height: 400px;
+    margin: 40px 40px;
+
+}
+
+
+
+.left {
+  margin-left: 200px;
+  margin-top: 40px;
+
+}
+
+.left img {
+  height: 300px;
+  margin-top: 25px;
+}
+
+.right {
+  margin:85px;
+  margin-right: 315px;
+}
+
+.right {
+  padding-left: -20px;
+}
+
+.right h1 {
+  color: #f9eedc;
+}
+
+.left h2 {
+    padding-top: 30px;
+    color: #FFFFFF;
 }
