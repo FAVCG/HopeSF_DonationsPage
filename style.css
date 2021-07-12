@@ -3,20 +3,28 @@ body, html {
 }
 /*navbar*/
 .navbar {
-	background-color: #36454F!important;
+	background-color: #6c757d !important;
 	padding: 2%;
 }
 
 .navbar a {
-	color: #c94f68;
-	font-size: 20px;
+	color: #f9eedc;
+	font-size: 25px;
 	padding-left: 250px;
+}
+
+.b {
+  color: #4bb1bc;
+}
+
+.p {
+  color: #c94f68;
 }
 
 .navbar h2 {
 	padding-right: 250px;
-	font-size: 20px;
-	color: #4bb1bc;
+	font-size: 25px;
+	color: #f9eedc;
 }
 
 .carousel {
@@ -26,7 +34,7 @@ body, html {
 /*banner*/
 .banner {
   /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./images/beach.jpeg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://wonderingfair.files.wordpress.com/2016/06/happy-homeless-man.jpg");
 
   /* Set a specific height */
   height: 90%;
