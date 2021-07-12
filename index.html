@@ -4,24 +4,49 @@
 <head>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet">
     <title>HopeSF</title>
 </head>
 
 <body>
     <!-- Navbar -->
     <nav class="navbar">
-        <a href="#">Hope<span class="b">S</span><span class="p">F</span></a>
+        <a href="#">Hope<span class="b">S</span><span class="p">F</span>Donate</a>
         <h2>Call us today +1(888)555-5555</h2>
     </nav>
     <!-- banner -->
     <div class="banner">
         <div id="wrapper">
-            <div class="banner-text">
-                <h1>Help us provide healthcare to the unhoused population</h1>
-                <h2>We look forward to helping the homeless population improve their life's by providing healthcare.</h2>
+            <div class="left_side">
+                <h1><span>Help</span> us provide <span>healthcare</span> to the <span>unhoused</span> population</h1>
+                <h3>We look forward to helping the homeless population improve their life's by providing healthcare.</h2>
             </div>
-            <div class="banner-form">
-                <h1>Form will go here</h1>
+            <div class="right_side">
+                <div>
+                <form id="square">
+                    <div class="form-header">Donate</div>
+                    <div class="col">
+                        <input type="text" class="form-control" placeholder="First name" required>
+                    </div>
+                    <div class="col">
+                        <input type="text" class="form-control" placeholder="Last name" required>
+                    </div>
+                    <div class="col">
+                    <input type="email" class="form-control" id="inputEmail4" placeholder="Email" required>
+                </div>
+                <div class="col">
+                    <input type="tel" class="form-control" id="phone" name="phone"  placeholder="Phone" required>
+                </div>
+                 <div class="col">
+                    <input type="number" class="form-control" placeholder="Amount" required>
+                </div>
+                <div class="col">
+                    <input class="btn pink-btn" type="submit" value="Submit">
+                </div>
+                </form>
+                </div>
             </div>
         </div>
     </div>
@@ -46,7 +71,7 @@
             <img src="./images/interns.jpeg" alt="health">
         </div>
         <div class="right">
-            <h1>Our Mission</h1>
+            <h2>Our Mission</h2>
             <p>HopeSF aims to offer quality health care to the homeless population, no questions asked. HopeSF’s vision is to improve their health and overall quality of life by making our resources accessible 24/7.</p>
             <button type="button" class="btn btn-secondary">Donate Now</button>
         </div>
