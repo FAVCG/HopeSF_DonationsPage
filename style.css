@@ -14,6 +14,10 @@ body, html {
 	padding-left: 250px;
 }
 
+.navbar a:hover {
+  text-decoration: none;
+}
+
 .b {
   color: #4bb1bc;
 }
@@ -148,15 +152,27 @@ span {
     color: #FFFFFF;
 }
 
+.btn-secondary {
+  background-color: #36454f;
+  border-color: #36454f;
+  width: 200px;
+  font-weight: 800;
+}
+
+.btn-secondary:hover {
+  background-color: #36454f;
+  border-color: #36454f;
+}
 
 /*section3*/
 
 #section3 {
   text-align: center;
 }
-#section3 h1 {
+#section3 h2 {
   color: #4bb1bc;
   padding-top: 80px;
+  font-weight: 800;
 }
 
 #section3 p {
@@ -166,6 +182,18 @@ span {
   margin-right: 200px;
 }
 
+/*footer*/
+footer {
+  background-color: #36454f;
+  height: 100px;
+}
+
+h5 {
+  text-align: center;
+  color: #f9eedc;
+  padding-top: 35px;
+  font-size: 16px;
+}
 
 /*form*/
 
@@ -185,6 +213,7 @@ span {
   width: 200px;
   padding-left: 140px;
   padding-top: 12px;
+  padding-bottom: 50px;
 }
 
 .form-control {
