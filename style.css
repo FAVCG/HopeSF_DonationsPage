@@ -4,7 +4,7 @@ body, html {
 }
 /*navbar*/
 .navbar {
-	background-color: #6c757d !important;
+	background-color: #36454f!important;
 	padding: 2%;
 }
 
@@ -136,6 +136,7 @@ span {
 
 .right h2{
   color: #f9eedc;
+  font-weight: 800;
 }
 
 .right h1 {
@@ -146,6 +147,25 @@ span {
     padding-top: 30px;
     color: #FFFFFF;
 }
+
+
+/*section3*/
+
+#section3 {
+  text-align: center;
+}
+#section3 h1 {
+  color: #4bb1bc;
+  padding-top: 80px;
+}
+
+#section3 p {
+  color: #000000;
+  padding-top: 20px;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
 
 /*form*/
 
