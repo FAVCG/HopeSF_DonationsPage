@@ -39,7 +39,7 @@ body, html {
 /*banner*/
 .banner {
   /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://wonderingfair.files.wordpress.com/2016/06/happy-homeless-man.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("./images/tenderloin.jpeg");
 
   /* Set a specific height */
   height: 90%;
@@ -99,6 +99,25 @@ span {
   justify-content: space-evenly;
   padding-top: 130px;
   }
+#icons h4 {
+
+   padding-top: 20px;
+   justify-content: space-around;
+   margin-right: -50px;
+   font-weight: 700;
+}
+
+.alignment h4{
+  padding-left: 3px;
+}
+
+.alignment2 h4 {
+  padding-left: 8px;
+}
+
+.alignment3 h4 {
+  padding-right: 10px;
+}
 
 #section2 {
   height: 450px;
