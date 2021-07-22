@@ -13,6 +13,10 @@ body, html {
 	padding: 2%;
 }
 
+.logo {
+  height: 25px;
+}
+
 .navbar a {
 	color: #f9eedc;
 	font-size: 25px;
